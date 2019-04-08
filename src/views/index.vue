@@ -1,6 +1,9 @@
 <template>
   	<div class="home">
-        	<router-view/>
+  		<div>
+  			<router-link to="/sd/">数独</router-link>
+  		</div>
+    	<router-view/>
  	</div>
 </template>
 

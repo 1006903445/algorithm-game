@@ -3,9 +3,9 @@ import Router from 'vue-router'
 import Index from './views/index.vue'
 
 Vue.use(Router)
-
+console.log(process.env.BASE_URL)
 export default new Router({
-    // mode: 'history',
+    mode: 'history',
     base: process.env.BASE_URL,
     routes: [
 	    {
